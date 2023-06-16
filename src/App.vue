@@ -13,7 +13,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <Nav class="" />
+  <Nav />
   <!-- was done in the landing page branch -->
   <router-view></router-view>
   <Footer class="z-[0]" />

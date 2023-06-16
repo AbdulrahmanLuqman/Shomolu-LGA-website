@@ -46,7 +46,8 @@ export default defineComponent({
           <img width="40" class="z-[999]" src="../assets/images/logo.png" alt="LOGO">
         </div>
         <div class="md:flex md:bg-transparent md:items-end md:gap-6 md:static md:bg-transparent md:shadow-none md:rounded-none md:w-fit md:h-fit md:mx-0 md:p-0 w-[75%] mx-auto absolute bg-[white] shadow-lg top-[82px] left-0 right-0 rounded-lg p-4 space-y-4" :class="toggle ? 'block' : 'hidden'">
-          <RouterLink to="/"><p class="font-semibold text-[#37423B] hover:text-[#1475C4]">Home</p></RouterLink>
+
+          <router-link to="/"><p class="font-semibold text-[#37423B] hover:text-[#1475C4]">Home</p></router-link>
 
           <div class="md:relative md:flex md:items-center md:gap-2">
             <div class="flex items-center hover:text-[#1475C4]">
