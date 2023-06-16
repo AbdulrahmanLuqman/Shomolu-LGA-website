@@ -13,10 +13,12 @@ export default defineComponent({
 </script>
 
 <template>
-  <Nav />
-  <!-- was done in the landing page branch -->
-  <router-view></router-view>
-  <Footer class="z-[0]" />
+  <div class="bg-[whitesmoke]">
+    <Nav />
+    <!-- was done in the landing page branch -->
+    <router-view></router-view>
+    <Footer class="z-[0]" />
+  </div>
 </template>
 
 <style scoped>
