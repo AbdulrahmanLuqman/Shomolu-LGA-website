@@ -13,7 +13,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <Nav class="" />
+  <Nav />
   <Footer class="z-[0]" />
 </template>
 
