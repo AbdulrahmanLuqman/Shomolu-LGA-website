@@ -15,7 +15,7 @@ export default defineComponent({
 <template>
   <Nav class="" />
   <!-- was done in the landing page branch -->
-  <RouterView></RouterView>
+  <router-view></router-view>
   <Footer class="z-[0]" />
 </template>
 
