@@ -95,6 +95,6 @@ export default defineComponent({
       </nav>
     </header>
 
-  <div class="md:hidden block fixed top-0 bg-black h-screen w-full z-[10] opacity-50" :class="!toggle ? 'hidden' : 'block' "></div>
+  <div @click="toggle = false" class="md:hidden block fixed top-0 bg-black h-screen w-full z-[10] opacity-50" :class="!toggle ? 'hidden' : 'block' "></div>
 
 </template>
