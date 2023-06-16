@@ -15,7 +15,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <header class="sticky top-0 z-[999]">
+    <header class="sticky top-0 z-[999] shadow-xl">
       <div class="lg:bg-[#1475C4] lg:h-[40px] lg:w-full lg:flex lg:items-center lg:justify-between lg:px-[80px] hidden">
         <div class="flex items-center gap-10">
           <div class="flex items-center gap-2">
