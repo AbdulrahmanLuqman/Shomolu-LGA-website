@@ -19,7 +19,7 @@ export default defineComponent({
       data-aos-duration="1000"
       data-aos-offset="200"
       data-aos-delay="100"
-      data-aos-easing="ease-in-out"  class="bg-[whitesmoke] w-full lg:h-[60vh] relative overflow-hidden flex flex-col justify-between">
+      data-aos-easing="ease-in-out"  class="bg-[lightblue] w-full lg:h-[60vh] relative overflow-hidden flex flex-col justify-between">
         <img src="../assets/images/footer-shape-1.png" class="bounce z-0 absolute top-0 left-8" alt="">
         <img src="../assets/images/footer-shape-2.png" class="bounce z-0 absolute bottom-0 right-8" alt="">
         <div class="grid lg:grid-cols-3 w-full gap-12 px-10 pt-20 pb-8 md:grid-cols-2 grid-cols-1">
