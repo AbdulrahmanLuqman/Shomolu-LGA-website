@@ -17,10 +17,10 @@ export default defineComponent({
     <section class="w-full relative overflow-hidden  h-fit lg:h-screen md:h-[80vh] bg-gradient-to-r from-blue-400 to-[#1475C4]">
         <img width="170" src="../assets/images/header-shape-1.png" class="bounce z-0 absolute top-0 left-8" alt="">
         <img width="170" src="../assets/images/header-shape-2.png" class="bounce z-0 absolute bottom-0 right-8" alt="">
-        <div class="grid md:grid-cols-2 gap-10 items-center h-full md:py-0 py-12 px-12">
+        <div class="grid md:grid-cols-2 gap-10 items-center h-full md:py-0 py-12 md:px-12 px-4">
             <div class="text-[whitesmoke] flex flex-col gap-8 items-center md:items-start">
                 <p class="text-sm">Discover the city</p>
-                <p class="lg:text-7xl md:text-4xl text:3xl font-bold">Cooperation has become a central element</p>
+                <p class="lg:text-7xl md:text-4xl text:3xl font-bold text-center">Cooperation has become a central element</p>
                 <p class="bg-[#F9FBFE] w-fit px-6 py-2 text-[#1475C4] rounded-lg font-semibold">Learn more</p>
             </div> 
             <div>
@@ -34,8 +34,8 @@ export default defineComponent({
       data-aos-duration="1000"
       data-aos-offset="200"
       data-aos-delay="100"
-      data-aos-easing="ease-in-out" class="px-12 py-16 h-fit space-y-6 w-full">
-        <p class="text-3xl font-semibold">Policies and Initiatives</p>
+      data-aos-easing="ease-in-out" class="md:px-12 px-4 py-16 h-fit space-y-6 w-full">
+        <p class="md:text-3xl text-xl font-semibold">Policies and Initiatives</p>
 
         <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-8 h-full">
             <div class="w-full flex flex-col py-8 gap-2 justify-center items-center  bg-white rounded-lg shadow-lg hover:border-2 hover:border-[#1475C4] hover:shadow-none">
@@ -96,9 +96,9 @@ export default defineComponent({
       data-aos-offset="200"
       data-aos-delay="100"
       data-aos-easing="ease-in-out"
-      class="h-fit w-full space-y-6 px-12 py-16"
+      class="h-fit w-full space-y-6 md:px-12 py-16 px-4"
       >
-        <p class="text-3xl font-semibold">Services offered</p>
+        <p class="md:text-3xl text-xl font-semibold">Services offered</p>
 
         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
             <div class="services transition-all duration-1000 w-full bg-white shadow-lg p-6 flex flex-col  items-center md:flex-row gap-4 rounded-lg">
