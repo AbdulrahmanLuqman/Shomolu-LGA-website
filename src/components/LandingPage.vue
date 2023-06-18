@@ -20,7 +20,7 @@ export default defineComponent({
         <div class="grid md:grid-cols-2 gap-10 items-center h-full md:py-0 py-12 md:px-12 px-4">
             <div class="text-[whitesmoke] flex flex-col gap-8 items-center md:items-start">
                 <p class="text-sm">Discover the city</p>
-                <p class="lg:text-7xl md:text-4xl text:3xl font-bold text-center">Cooperation has become a central element</p>
+                <p class="lg:text-7xl md:text-start md:text-4xl text:3xl font-bold text-center">Cooperation has become a central element</p>
                 <p class="bg-[#F9FBFE] w-fit px-6 py-2 text-[#1475C4] rounded-lg font-semibold">Learn more</p>
             </div> 
             <div>
