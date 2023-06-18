@@ -22,7 +22,7 @@ export default defineComponent({
       data-aos-easing="ease-in-out"  class="bg-[lightblue] w-full lg:h-[60vh] relative overflow-hidden flex flex-col justify-between">
         <img src="../assets/images/footer-shape-1.png" class="bounce z-0 absolute top-0 left-8" alt="">
         <img src="../assets/images/footer-shape-2.png" class="bounce z-0 absolute bottom-0 right-8" alt="">
-        <div class="grid lg:grid-cols-3 w-full gap-12 px-10 pt-20 pb-8 md:grid-cols-2 grid-cols-1">
+        <div class="grid lg:grid-cols-3 w-full gap-12 px-4 md:px-12 pt-20 pb-8 md:grid-cols-2 grid-cols-1">
             <div class="z-[99] space-y-4">
                 <p class="uppercase text-4xl  font-black"><span class="text-[#1475C4]">s</span>homolu</p>
                 <p class="text-base font-semibold">A Local government that will do anything it takes to help its people.</p>
