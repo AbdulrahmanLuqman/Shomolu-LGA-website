@@ -39,7 +39,6 @@ export default defineComponent({
                 <p class="text-base cursor-pointer font-semibold">Government services</p>
                 <p class="text-base cursor-pointer font-semibold">Projects</p>
             </div>
-        </div>
 
             <div class="space-y-4">
                 <p class="text-3xl font-bold">Get in touch</p> 
@@ -61,6 +60,7 @@ export default defineComponent({
                   </div>
                 </div>
             </div>
+        </div>
 
         <div class="space-y-4 py-4">
             <div class="w-full h-[1px] bg-[#1475C4]"></div>
