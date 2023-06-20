@@ -57,7 +57,7 @@ export default defineComponent({
                 <svg v-else @click="pages = true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#37423B" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6l1.41 1.41z"/></svg>
               </div>
             </div>
-            <div v-show="pages" class="md:absolute md:top-[40px] md:left-0 md:bg-white md:w-[200px] h-fit md:shadow-xl md:rounded-md space-y-2">
+            <div v-show="pages" class="md:absolute md:top-[40px] md:left-0 md:bg-[#F9FBFE] md:w-[200px] h-fit md:shadow-xl md:rounded-md space-y-2">
               <RouterLink to="/about"><p class="text-[#37423B] border-b w-full p-4 font-semibold">About</p></RouterLink>
               <RouterLink to="/administratives"><p class="text-[#37423B] border-b w-full p-4 font-semibold">Administratives</p></RouterLink>
               <RouterLink to="/events"><p class="text-[#37423B] border-b w-full p-4 font-semibold">Events</p></RouterLink>
@@ -75,7 +75,7 @@ export default defineComponent({
                 <svg v-else @click="department = true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6l1.41 1.41z"/></svg>
               </div>
             </div>
-            <div v-show="department" class="md:absolute md:top-[40px] md:left-0 md:bg-white md:w-[200px] h-fit md:shadow-xl md:rounded-md space-y-2">
+            <div v-show="department" class="md:absolute md:top-[40px] md:left-0 md:bg-[#F9FBFE] md:w-[200px] h-fit md:shadow-xl md:rounded-md space-y-2">
               <RouterLink to="/department"><p class="text-[#37423B] border-b w-full p-4 font-semibold">Department</p></RouterLink>
               <RouterLink to="/services"><p class="text-[#37423B] border-b w-full p-4 font-semibold">Services</p></RouterLink>
             </div>
