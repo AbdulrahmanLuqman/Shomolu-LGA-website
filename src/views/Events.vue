@@ -1,15 +1,15 @@
 <script>
 import { defineComponent } from 'vue';
-
+import FirstSection from '../components/EventsPageComponents/FirstSection.vue';
 
 export default defineComponent({
-  data(){
-    return{
-    }
-  }
+    data() {
+        return {};
+    },
+    components: { FirstSection }
 })
 </script>
 
 <template>
-    event page
+    <FirstSection />
 </template>
