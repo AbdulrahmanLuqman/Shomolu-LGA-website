@@ -64,7 +64,7 @@ export default defineComponent({
 
         <div class="space-y-4 py-4">
             <div class="w-full h-[1px] bg-[#1475C4]"></div>
-            <p class="text-center font-semibold">Copyright &copy;2023. Designed by <span class="text-[#1475C4] font-bold">Gold group</span></p>
+            <p class="text-center font-semibold">Copyright &copy;2023. Designed by <span class="text-[#1475C4] font-bold">Dervac</span></p>
         </div>
     </div>
 </template>
