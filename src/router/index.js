@@ -6,58 +6,58 @@ const router = createRouter({
         {
             path: '/',
             name: 'Pages',
-            component: () => import('../components/Pages.vue'),
+            component: () => import('../views/AllPages.vue'),
             children: [
                 {
                     path: '/',
                     name: 'LandingPage',
-                    component:  () =>  import('../components/LandingPage.vue')
+                    component:  () =>  import('../views/LandingPage.vue')
                 },
                 {
                     path: '/about',
                     name: 'AboutPage',
-                    component:  () =>  import('../components/About.vue')
+                    component:  () =>  import('../views/About.vue')
                 },
                 {
                     path: '/administratives',
                     name: 'AdministrativesPage',
-                    component:  () =>  import('../components/Administratives.vue')
+                    component:  () =>  import('../views/Administratives.vue')
                 },
                 {
                     path: '/events',
                     name: 'EventsPage',
-                    component:  () =>  import('../components/Events.vue')
+                    component:  () =>  import('../views/Events.vue')
                 },
                 {
                     path: '/faq',
                     name: 'FAQPage',
-                    component:  () =>  import('../components/FAQ.vue')
+                    component:  () =>  import('../views/FAQ.vue')
                 },
                 {
                     path: '/projects',
                     name: 'ProjectsPage',
-                    component:  () =>  import('../components/Projects.vue')
+                    component:  () =>  import('../views/Projects.vue')
                 }
                 ,
                 {
                     path: '/department',
                     name: 'DepartmentPage',
-                    component:  () =>  import('../components/Department.vue')
+                    component:  () =>  import('../views/Department.vue')
                 },
                 {
                     path: '/services',
                     name: 'ServicesPage',
-                    component:  () =>  import('../components/Services.vue')
+                    component:  () =>  import('../views/Services.vue')
                 },
                 {
                     path: '/media',
                     name: 'MediaPage',
-                    component:  () =>  import('../components/MediaRoom.vue')
+                    component:  () =>  import('../views/MediaRoom.vue')
                 },
                 {
                     path: '/contact',
                     name: 'ContactPage',
-                    component:  () =>  import('../components/Contact.vue')
+                    component:  () =>  import('../views/Contact.vue')
                 },
             ]
         },
