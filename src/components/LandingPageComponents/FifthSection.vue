@@ -24,7 +24,7 @@
         <RouterLink to="/services"><p class="bg-[#1475C4] text-white w-fit rounded-lg px-6 py-2 mt-4 hover:bg-[transparent] hover:border-2 hover:text-[#1475C4] hover:border-[#1475C4]">Learn More</p></RouterLink>
       </div>
       <div>
-        <img src="../assets/images/garbage.jpg" alt="">
+        <img src="../../assets/images/garbage.jpg" alt="">
       </div>
     </section>
 </template>
